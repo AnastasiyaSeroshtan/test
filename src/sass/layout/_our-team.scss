@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+}
+.team-list{
+    display: flex;
+    justify-content: center;
+}
+.team-item{
+    width: 80px;
+}
+.team-item:not(:last-child){
+    margin-right: 10px;
+}
